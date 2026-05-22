@@ -1,67 +1,69 @@
 # MinAutomate Helper — Knowledge Base
 
-> Tổng hợp kiến thức về **XPath** và **CSS Selector** — hai công cụ định vị phần tử quan trọng nhất trong web automation, web scraping và UI testing.
+**🇬🇧 English** · **[🇻🇳 Tiếng Việt](README.vi.md)** · **[🇹🇭 ไทย](README.th.md)**
 
-## 📚 Nội dung
+> A knowledge base for **XPath** and **CSS Selector** — the two most important element locator languages for web automation, web scraping, and UI testing.
 
-Mỗi chủ đề có **3 ngôn ngữ**: Tiếng Việt (`vi`), English (`en`), ไทย (`th`).
+## 📚 Contents
+
+Each topic ships in **three languages**: English (`en`), Vietnamese (`vi`), Thai (`th`).
 
 ### XPath
 
-| Ngôn ngữ / Language | File |
+| Language | File |
 |---|---|
-| 🇻🇳 Tiếng Việt | [xpath-summary.vi.md](xpath-summary.vi.md) |
 | 🇬🇧 English | [xpath-summary.en.md](xpath-summary.en.md) |
+| 🇻🇳 Tiếng Việt | [xpath-summary.vi.md](xpath-summary.vi.md) |
 | 🇹🇭 ไทย | [xpath-summary.th.md](xpath-summary.th.md) |
 
 ### CSS Selector
 
-| Ngôn ngữ / Language | File |
+| Language | File |
 |---|---|
-| 🇻🇳 Tiếng Việt | [css-selector-summary.vi.md](css-selector-summary.vi.md) |
 | 🇬🇧 English | [css-selector-summary.en.md](css-selector-summary.en.md) |
+| 🇻🇳 Tiếng Việt | [css-selector-summary.vi.md](css-selector-summary.vi.md) |
 | 🇹🇭 ไทย | [css-selector-summary.th.md](css-selector-summary.th.md) |
 
-## 🎯 Phạm vi
+## 🎯 Scope
 
-Mỗi file đều bao gồm:
+Each summary covers:
 
-- **Cú pháp cơ bản** — cấu trúc tổng quát của ngôn ngữ truy vấn
-- **So khớp thuộc tính** — `=`, `contains`, `starts-with`, `ends-with`, …
-- **Kết hợp điều kiện** — AND / OR / NOT
-- **Case-insensitive matching** — bỏ qua hoa-thường
-- **Chuẩn hóa khoảng trắng** — `normalize-space()` (XPath only)
-- **So khớp theo text** — `text()`, `contains(text())` (XPath only)
-- **Quan hệ giữa node** — con / cháu / cha / tổ tiên / anh em
-- **Chọn theo thứ tự** — index, `last()`, `nth-child`, `nth-of-type`
-- **Pseudo-class & `:has()`** — đặc thù CSS
-- **Cheat Sheet đối chiếu** — bảng so sánh XPath ↔ CSS
-- **Mẹo sử dụng** — test trong Chrome DevTools, khi nào nên chọn cái nào
+- **Basic syntax** — overall structure of the query language
+- **Attribute matching** — `=`, `contains`, `starts-with`, `ends-with`, …
+- **Combining conditions** — AND / OR / NOT
+- **Case-insensitive matching**
+- **Whitespace normalization** — `normalize-space()` (XPath only)
+- **Text matching** — `text()`, `contains(text())` (XPath only)
+- **Node relationships** — child / descendant / parent / ancestor / sibling
+- **Positional selection** — index, `last()`, `nth-child`, `nth-of-type`
+- **Pseudo-classes & `:has()`** — CSS-specific
+- **Cross-reference cheat sheet** — XPath ↔ CSS comparison table
+- **Practical tips** — testing in Chrome DevTools, choosing between them
 
-## 🔧 Quy ước đặt tên file
+## 🔧 File naming convention
 
-Theo chuẩn **BCP 47 locale suffix** — pattern phổ biến cho framework đa ngôn ngữ (Docusaurus, Mintlify, i18next, Astro Content Collections):
+Follows **BCP 47 locale suffix** — the standard used by major i18n frameworks (Docusaurus, Mintlify, i18next, Astro Content Collections):
 
 ```
 {topic}-summary.{locale}.md
 ```
 
-Ví dụ: `xpath-summary.vi.md`, `css-selector-summary.en.md`.
+Examples: `xpath-summary.en.md`, `css-selector-summary.vi.md`.
 
-## 📖 Khi nào dùng XPath vs CSS Selector?
+## 📖 When to use XPath vs CSS Selector?
 
-| Tình huống | Nên dùng |
+| Situation | Recommended |
 |---|---|
-| Lọc theo text content | **XPath** (CSS không hỗ trợ) |
-| Đi ngược lên cha / tổ tiên | **XPath** (CSS không có `parent::`, `ancestor::`) |
-| Tìm anh em đứng trước | **XPath** (CSS không có `preceding-sibling`) |
-| Chọn phần tử chứa X | Cả hai — XPath `[./X]` hoặc CSS `:has(X)` (Level 4) |
-| Selector ngắn gọn, hiệu năng cao | **CSS Selector** (nhanh hơn trong browser) |
-| Tương thích trình duyệt cũ | **CSS Selector** (XPath không có trong CSS engine) |
+| Filter by text content | **XPath** (CSS has no equivalent) |
+| Traverse up to parent / ancestor | **XPath** (CSS lacks `parent::`, `ancestor::`) |
+| Find preceding siblings | **XPath** (CSS lacks `preceding-sibling`) |
+| Select element containing X | Either — XPath `[./X]` or CSS `:has(X)` (Level 4) |
+| Short, performant selector | **CSS Selector** (faster in browsers) |
+| Older browser compatibility | **CSS Selector** (XPath isn't part of CSS engines) |
 
-## 🤝 Đóng góp
+## 🤝 Contributing
 
-Pull request luôn được chào đón. Khi cập nhật một file, vui lòng **đồng bộ cả 3 bản dịch** (vi / en / th) để duy trì tính nhất quán.
+Pull requests welcome. When updating a file, please **sync all three translations** (en / vi / th) to keep them consistent.
 
 ## 📄 License
 
