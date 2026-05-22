@@ -1,28 +1,15 @@
 # MinAutomate Helper — Knowledge Base
 
-**[🇬🇧 English](README.md)** · **🇻🇳 Tiếng Việt** · **[🇹🇭 ไทย](README.th.md)**
+**[🇬🇧 English](../en/README.md)** · **🇻🇳 Tiếng Việt** · **[🇹🇭 ไทย](../th/README.md)**
 
 > Tổng hợp kiến thức về **XPath** và **CSS Selector** — hai công cụ định vị phần tử quan trọng nhất trong web automation, web scraping và UI testing.
 
 ## 📚 Nội dung
 
-Mỗi chủ đề có **3 ngôn ngữ**: Tiếng Việt (`vi`), English (`en`), ไทย (`th`).
-
-### XPath
-
-| Ngôn ngữ / Language | File |
+| Chủ đề | File |
 |---|---|
-| 🇻🇳 Tiếng Việt | [xpath-summary.vi.md](xpath-summary.vi.md) |
-| 🇬🇧 English | [xpath-summary.en.md](xpath-summary.en.md) |
-| 🇹🇭 ไทย | [xpath-summary.th.md](xpath-summary.th.md) |
-
-### CSS Selector
-
-| Ngôn ngữ / Language | File |
-|---|---|
-| 🇻🇳 Tiếng Việt | [css-selector-summary.vi.md](css-selector-summary.vi.md) |
-| 🇬🇧 English | [css-selector-summary.en.md](css-selector-summary.en.md) |
-| 🇹🇭 ไทย | [css-selector-summary.th.md](css-selector-summary.th.md) |
+| XPath | [xpath.md](xpath.md) |
+| CSS Selector | [css-selector.md](css-selector.md) |
 
 ## 🎯 Phạm vi
 
@@ -40,16 +27,6 @@ Mỗi file đều bao gồm:
 - **Cheat Sheet đối chiếu** — bảng so sánh XPath ↔ CSS
 - **Mẹo sử dụng** — test trong Chrome DevTools, khi nào nên chọn cái nào
 
-## 🔧 Quy ước đặt tên file
-
-Theo chuẩn **BCP 47 locale suffix** — pattern phổ biến cho framework đa ngôn ngữ (Docusaurus, Mintlify, i18next, Astro Content Collections):
-
-```
-{topic}-summary.{locale}.md
-```
-
-Ví dụ: `xpath-summary.vi.md`, `css-selector-summary.en.md`.
-
 ## 📖 Khi nào dùng XPath vs CSS Selector?
 
 | Tình huống | Nên dùng |
@@ -63,7 +40,7 @@ Ví dụ: `xpath-summary.vi.md`, `css-selector-summary.en.md`.
 
 ## 🤝 Đóng góp
 
-Pull request luôn được chào đón. Khi cập nhật một file, vui lòng **đồng bộ cả 3 bản dịch** (vi / en / th) để duy trì tính nhất quán.
+Pull request luôn được chào đón. Khi cập nhật một file, vui lòng **đồng bộ cả 3 bản dịch** (en / vi / th) để duy trì tính nhất quán.
 
 ## 📄 License
 

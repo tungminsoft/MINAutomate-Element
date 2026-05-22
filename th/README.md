@@ -1,28 +1,15 @@
 # MinAutomate Helper — Knowledge Base
 
-**[🇬🇧 English](README.md)** · **[🇻🇳 Tiếng Việt](README.vi.md)** · **🇹🇭 ไทย**
+**[🇬🇧 English](../en/README.md)** · **[🇻🇳 Tiếng Việt](../vi/README.md)** · **🇹🇭 ไทย**
 
 > สรุปความรู้เรื่อง **XPath** และ **CSS Selector** — สองภาษาค้นหา element ที่สำคัญที่สุดในงาน web automation, web scraping และ UI testing
 
 ## 📚 เนื้อหา
 
-แต่ละหัวข้อมี **สามภาษา**: English (`en`), ภาษาเวียดนาม (`vi`), ภาษาไทย (`th`)
-
-### XPath
-
-| ภาษา | ไฟล์ |
+| หัวข้อ | ไฟล์ |
 |---|---|
-| 🇬🇧 English | [xpath-summary.en.md](xpath-summary.en.md) |
-| 🇻🇳 Tiếng Việt | [xpath-summary.vi.md](xpath-summary.vi.md) |
-| 🇹🇭 ไทย | [xpath-summary.th.md](xpath-summary.th.md) |
-
-### CSS Selector
-
-| ภาษา | ไฟล์ |
-|---|---|
-| 🇬🇧 English | [css-selector-summary.en.md](css-selector-summary.en.md) |
-| 🇻🇳 Tiếng Việt | [css-selector-summary.vi.md](css-selector-summary.vi.md) |
-| 🇹🇭 ไทย | [css-selector-summary.th.md](css-selector-summary.th.md) |
+| XPath | [xpath.md](xpath.md) |
+| CSS Selector | [css-selector.md](css-selector.md) |
 
 ## 🎯 ขอบเขต
 
@@ -39,16 +26,6 @@
 - **Pseudo-class & `:has()`** — เฉพาะ CSS
 - **ตารางเทียบ Cheat Sheet** — XPath ↔ CSS
 - **เคล็ดลับการใช้งาน** — ทดสอบใน Chrome DevTools, เลือกใช้อย่างไร
-
-## 🔧 มาตรฐานการตั้งชื่อไฟล์
-
-ใช้รูปแบบ **BCP 47 locale suffix** — มาตรฐานที่ framework i18n ส่วนใหญ่ใช้ (Docusaurus, Mintlify, i18next, Astro Content Collections):
-
-```
-{topic}-summary.{locale}.md
-```
-
-ตัวอย่าง: `xpath-summary.en.md`, `css-selector-summary.th.md`
 
 ## 📖 เมื่อไหร่ควรใช้ XPath vs CSS Selector?
 

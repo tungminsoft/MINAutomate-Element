@@ -1,54 +1,35 @@
 # MinAutomate Helper — Knowledge Base
 
-**🇬🇧 English** · **[🇻🇳 Tiếng Việt](README.vi.md)** · **[🇹🇭 ไทย](README.th.md)**
+**🇬🇧 [English](en/README.md)** · **🇻🇳 [Tiếng Việt](vi/README.md)** · **🇹🇭 [ไทย](th/README.md)**
 
 > A knowledge base for **XPath** and **CSS Selector** — the two most important element locator languages for web automation, web scraping, and UI testing.
 
 ## 📚 Contents
 
-Each topic ships in **three languages**: English (`en`), Vietnamese (`vi`), Thai (`th`).
+| Topic | 🇬🇧 English | 🇻🇳 Tiếng Việt | 🇹🇭 ไทย |
+|---|---|---|---|
+| **Landing / README** | [en/](en/README.md) | [vi/](vi/README.md) | [th/](th/README.md) |
+| **XPath** | [en/xpath.md](en/xpath.md) | [vi/xpath.md](vi/xpath.md) | [th/xpath.md](th/xpath.md) |
+| **CSS Selector** | [en/css-selector.md](en/css-selector.md) | [vi/css-selector.md](vi/css-selector.md) | [th/css-selector.md](th/css-selector.md) |
 
-### XPath
-
-| Language | File |
-|---|---|
-| 🇬🇧 English | [xpath-summary.en.md](xpath-summary.en.md) |
-| 🇻🇳 Tiếng Việt | [xpath-summary.vi.md](xpath-summary.vi.md) |
-| 🇹🇭 ไทย | [xpath-summary.th.md](xpath-summary.th.md) |
-
-### CSS Selector
-
-| Language | File |
-|---|---|
-| 🇬🇧 English | [css-selector-summary.en.md](css-selector-summary.en.md) |
-| 🇻🇳 Tiếng Việt | [css-selector-summary.vi.md](css-selector-summary.vi.md) |
-| 🇹🇭 ไทย | [css-selector-summary.th.md](css-selector-summary.th.md) |
-
-## 🎯 Scope
-
-Each summary covers:
-
-- **Basic syntax** — overall structure of the query language
-- **Attribute matching** — `=`, `contains`, `starts-with`, `ends-with`, …
-- **Combining conditions** — AND / OR / NOT
-- **Case-insensitive matching**
-- **Whitespace normalization** — `normalize-space()` (XPath only)
-- **Text matching** — `text()`, `contains(text())` (XPath only)
-- **Node relationships** — child / descendant / parent / ancestor / sibling
-- **Positional selection** — index, `last()`, `nth-child`, `nth-of-type`
-- **Pseudo-classes & `:has()`** — CSS-specific
-- **Cross-reference cheat sheet** — XPath ↔ CSS comparison table
-- **Practical tips** — testing in Chrome DevTools, choosing between them
-
-## 🔧 File naming convention
-
-Follows **BCP 47 locale suffix** — the standard used by major i18n frameworks (Docusaurus, Mintlify, i18next, Astro Content Collections):
+## 📁 Repository structure
 
 ```
-{topic}-summary.{locale}.md
+.
+├── README.md           ← you are here (language picker)
+├── en/                 ← English
+│   ├── README.md
+│   ├── xpath.md
+│   └── css-selector.md
+├── vi/                 ← Tiếng Việt
+│   ├── README.md
+│   ├── xpath.md
+│   └── css-selector.md
+└── th/                 ← ไทย
+    ├── README.md
+    ├── xpath.md
+    └── css-selector.md
 ```
-
-Examples: `xpath-summary.en.md`, `css-selector-summary.vi.md`.
 
 ## 📖 When to use XPath vs CSS Selector?
 
